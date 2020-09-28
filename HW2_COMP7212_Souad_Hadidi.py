@@ -13,7 +13,6 @@ def addNode(G):
 	currIDList = list(G.nodes)
 	if newID != currIDList:
 		G.add_node(newID)
-		
 		print(G.has_succ(0))
 
 G=nx.Graph()
